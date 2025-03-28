@@ -1,0 +1,3 @@
+@echo off
+echo Starting GitHub auto-sync service...
+powershell.exe -ExecutionPolicy Bypass -File "%~dp0auto-github-sync.ps1" 
